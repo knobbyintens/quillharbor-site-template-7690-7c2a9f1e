@@ -1,0 +1,56 @@
+# Quillharbor Studio — static site configuration
+title: Quillharbor Studio
+tagline: Essays, serials, and reading notes from an independent press
+description: >-
+  Quillharbor Studio publishes long-form essays and serialised fiction for
+  curious readers. Built with a small custom static-site theme.
+url: https://quillharbor.studio
+baseurl: ""
+permalink: /:categories/:year/:month/:day/:title/
+timezone: Europe/Amsterdam
+markdown: kramdown
+theme: quill-minimal
+
+pagination:
+  enabled: true
+  per_page: 12
+  permalink: "/page/:num/"
+  sort_field: "date"
+  sort_reverse: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+social:
+  links:
+    - https://github.com/jordanvale-dev
+    - https://twitter.com/quilldemo
+
+# Author / contact block used by the theme footer, the RSS feed and structured data
+author:
+  name: "Jordan Vale"
+  email: "jordan.vale@demo-mail.net"
+  github: "jordanvale-dev"
+  twitter: "quilldemo"
+  mastodon: "@quilldemo@social.example"
+  orcid: "0000-0002-1825-0097"
+  bio: "Interim theme author — replace with your own details."
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "post"
+      comments: false
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
