@@ -25,18 +25,16 @@ plugins:
 
 social:
   links:
-    - https://github.com/jordanvale-dev
-    - https://twitter.com/quilldemo
+    - https://github.com/dmarchetti-writes
+    - https://writing.exchange/@dmarchetti
 
 # Author / contact block used by the theme footer, the RSS feed and structured data
 author:
-  name: "Jordan Vale"
-  email: "jordan.vale@demo-mail.net"
-  github: "jordanvale-dev"
-  twitter: "quilldemo"
-  mastodon: "@quilldemo@social.example"
-  orcid: "0000-0002-1825-0097"
-  bio: "Interim theme author — replace with your own details."
+  name: "Delphine Marchetti"
+  email: "delphine.marchetti@quillharbor.studio"
+  github: "dmarchetti-writes"
+  mastodon: "@dmarchetti@writing.exchange"
+  bio: "Founding editor and site maintainer at Quillharbor Studio."
 
 defaults:
   - scope:
